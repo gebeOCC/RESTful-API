@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD Example</title>
+</head>
+
+<body>
+
+    <h1>RESTful API</h1>
+
+    <div>
+        <input placeholder="userId" type="text">
+        <input placeholder="id" type="text">
+        <input placeholder="title" type="text">
+        <input placeholder="body" type="text">
+    </div>
+    <div class="container">
+        <button onclick="createPost()">Create Post</button>
+        <button onclick="getPosts()">Get Posts</button>
+        <button onclick="updatePost()">Update Post</button>
+    </div>
+    <ul id="postList"></ul>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
